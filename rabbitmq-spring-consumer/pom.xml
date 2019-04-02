@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
     <packaging>war</packaging>
-    <artifactId>rabbitmq-spring</artifactId>
+    <artifactId>rabbitmq-spring-consumer</artifactId>
 
     <dependencies>
         <dependency>
@@ -91,7 +91,7 @@
 
     </dependencies>
     <build>
-        <finalName>rabbitmq_producer</finalName>
+        <finalName>rabbitmq_consumer</finalName>
         <resources>
             <resource>
                 <directory>${basedir}/src/main/java</directory>

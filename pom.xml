@@ -11,6 +11,9 @@
     <modules>
         <module>rabbitmqInit</module>
         <module>rabbitmq-spring</module>
+        <module>rabbitmq-spring-consumer</module>
+        <module>rq-order</module>
+        <module>rq-depot</module>
     </modules>
 
 
